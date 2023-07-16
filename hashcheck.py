@@ -62,7 +62,7 @@ def dots():
 def loadingBar():
     total_progress = 100
     for progress in range(total_progress + 1):
-        time.sleep(0.05)  # Add a small delay to visualize the progress
+        time.sleep(0.05)
         percent = progress * 100 // total_progress
         bar = "[" + "#" * (progress // 10) + " " * ((total_progress - progress) // 10) + "]"
         print(f"Progress: {percent}% {bar}", end="\r", flush=True)
@@ -330,7 +330,6 @@ def uploadFileToVT(chooseFile, filePath, sha256Hash):
                 response_upload_file = requests.post(url_upload_file, files=file_upload_file, headers=headers_upload_file)
                 response_data_upload_file = response_upload_file.json()
                 #print(response_data_upload_file['data']['id'])
-                # Insert progress bar here
                 nl()
                 total_progress = 100
                 print("Scanning file. Please wait...")
@@ -354,9 +353,7 @@ def uploadFileToVT(chooseFile, filePath, sha256Hash):
                     }
                     response_analysis = requests.get(url_analysis, headers=headers_analysis)
                     response_data_analysis = response_analysis.json()
-                    #print(response_data_analysis['data']['attributes']['status'])
-                    #print(response_data_analysis['data']['attributes']['stats']['malicious'])
-                    #print(response_data_analysis['data']['attributes']['stats']['suspicious'])
+                   
                     # If status is queued, ask again in a while
                     response_data_analysis_again = None  # Initialize the variable
                     while response_data_analysis['data']['attributes']['status'] == "queued":
