@@ -89,7 +89,7 @@ def check_api_keys():
     api_key, api_keyab = read_api_keys()
 
     if not api_key:
-        api_key = input("Please enter a value for API_KEY: ")
+        api_key = input("Please enter a value for VT API key: ")
     else:
         api_key_set = input("API value already set for VT. Would you like to change the API value? (Yes/No)")
         if api_key_set.lower() in ['yes', 'y']:
@@ -108,7 +108,7 @@ def check_api_keys():
     nl()
 
     if not api_keyab:
-        api_keyab = input("Please enter a value for API_KEYAB: ")
+        api_keyab = input("Please enter a value for AbuseIPDB API key: ")
     else:
         api_keyab_set = input("API value already set for AbuseIPDB. Would you like to change the API value? (Yes/No)")
         if api_keyab_set.lower() in ['yes', 'y']:
