@@ -49,7 +49,7 @@ def setProjectDirectory():
     except Exception as e:
         print(f"Failed to copy project directory: {e}")
 
-# Example usage
+# Execute function
 setProjectDirectory()
 
 
