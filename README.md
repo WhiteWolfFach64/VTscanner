@@ -7,7 +7,7 @@ For instalation, please follow these steps:
 1. Clone the repository to your computer : git clone https://github.com/WhiteWolfFach64/VTscanner.git
 2. Update pip3 to lastest version : pip3 install --upgrade pip
 3. Run file "install.py" with sudo : sudo python3 install.py.
-This should create a directory for VTscanner tool in path "~/VTscanner" and install program in /usr/local/bin.
+(This should create a directory for VTscanner tool in path "~/VTscanner" and install program in /usr/local/bin).
 4. Run "VTscanner" by simply typying VTscanner (VTscanner can be called from any directory as long as "/usr/local/bin" belongs to "$PATH". If you encounter issues on running VTscanner, make sure "/usr/local/bin" is inside "$PATH" and add it if it is not):
 
 In order to analyze any domain list, IP list, file or list of hashes, please, place them into "~/VTscanner/txt". This tool looks for elements to be analyzed in this directory.
