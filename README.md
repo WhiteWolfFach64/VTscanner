@@ -14,4 +14,6 @@ In order to analyze any domain list, IP list, file or list of hashes, please, pl
 
 When user run VTscanner for the first time will be promted to submit API keys for the services availables. Make sure to provide a valid API key, otherwise analysis will return errors. API keys will be saved into "~/VTscanner/APIs/API.txt", and user will be prompted for usage of already saved API keys in use or if he/she would prefer to submit different API keys.
 
-No more talk! Let's hunt! 🐺
+No more talk! Let's hunt! 
+                            
+                            🐺
