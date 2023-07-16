@@ -170,8 +170,8 @@ def ABUSEscanner(valid_ips):
                     else:
                         print(AQUA + f"IP {ip}" + RESET + " cannot be scanned")
                 else:
-                    #print(f"No data available for IP {ip}")
-                    print(response)
+                    print(f"No data available for IP {ip}")
+                    #print(response)
 
             break  # Move the break statement here
         elif DoScan.lower() in ["no", "n"]:
@@ -231,7 +231,6 @@ def ABUSEscanner(valid_ips):
 		
 # -- CODE EXECUTION  --  #
 
-# Identifying a valid file to scan for IPs
 intro()
 banner()
 chooseFile = input("Choose a file: ")
