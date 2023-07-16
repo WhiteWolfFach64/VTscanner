@@ -130,8 +130,6 @@ def scanDomains(domains):
             print("Invalid input. Please, select a valid option.")
             nl()
             banner()
-	
-    # Rest of the code...
 
 # Code Execution
 intro()
@@ -177,6 +175,4 @@ banner()
 VTScanning()
 scanDomains(domains)
 banner()
-
-# Print the results
 fin()
