@@ -21,7 +21,7 @@ BLUE = "\033[34m"
 project_dir = os.path.dirname(os.path.abspath(__file__))
 user_home_dir = os.path.expanduser("~" + os.getlogin())
 target_dir = os.path.join(user_home_dir, "VTscanner")
-link_path = "/usr/local/bin/VTscanner"
+link_path = "/usr/local/bin/VTscanner.py"
 script_path = "/VTscanner.py"
 
 # Functions
