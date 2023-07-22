@@ -3,6 +3,11 @@ IOCs Management Tool
 
 VTscanner is an IOC analysis tool, which is integrated with services such as VirusTotal via API for checking possible malicious elements and reporting. Currently the tool is integrated with APIs from AbuseIPDB and ViruTotal, but more services and functionalities would be added in the future.
 
+Current services available are:
+1. IPs scanning tool (check for reputation of IPs)
+2. File scanning tool (check for reputation on hashes and upload files to be scanned by VT's sandboxes)
+3. Domains scanning tool (check for reputation of domains/URLs)
+
 For instalation, please follow these steps:
 1. Clone the repository to your computer :      git clone https://github.com/WhiteWolfFach64/VTscanner.git
 2. Update pip3 to lastest version :    pip3 install --upgrade pip
