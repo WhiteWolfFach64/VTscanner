@@ -12,7 +12,7 @@ For instalation, please follow these steps:
 
 In order to analyze any domain list, IP list, file or list of hashes, please, place them into "~/VTscanner/txt". This tool looks for elements to be analyzed in this directory.
 
-When user run VTscanner for the first time will be promted to submit API keys for the services availables. Make sure to provide a valid API key, otherwise analysis will return errors. API keys will be saved into "~/VTscanner/APIs/API.txt", and user will be prompted for usage of already saved API keys in use or if he/she would prefer to submit different API keys.
+When user runs VTscanner for the first time will be prompted to submit API keys for the servies avaiable. Make sure to provide a valid API key, otherwise analysis will return errors. API keys will be saved into "~/VTscanner/APIs/API.txt". User will be prompted for usage of already saved API keys in use or rather change API key value for each of the services available.
 
 No more talk! Let's hunt! 
                           🐺
