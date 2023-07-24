@@ -232,6 +232,7 @@ VTscanner was uninstalled. Have a nice day!
                         nl()
                         print("Alright! Keeping VTscanner on your computer")
                         nl()
+                        time.sleep(2)
                         print("""
 VTscanner was uninstalled. Have a nice day! 
                                           🐺""")
