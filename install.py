@@ -270,11 +270,11 @@ VTscanner ready. Have a nice day!
         # VTscanner is not installed. Starting installation.
         print("Preparing installation", end="")
         dots()
+        upgrade_and_install_libraries()
         setProjectDirectory()
         create_symbolic_link(user_path, link_path)
         set_executable_permissions(target_dir)
         change_ownership(target_dir)
-        upgrade_and_install_libraries()
         nl()
         print("""
 Installation complete. Have a nice day! 
